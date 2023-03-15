@@ -1,6 +1,6 @@
-title: Cookbook Template
-author: ARM Development Team
-logo: notebooks/images/arm_logo.png
+title: VITA (Vehicle-based Intelligent Technology for Atmosphere research) Project Cookbooks
+author: Project VITA Team
+logo: 
 execute:
   execute_notebooks: "off"
 parse:
@@ -19,9 +19,9 @@ html:
   comments:
     hypothesis: true
 repository:
-  url: https://github.com/ARM-Development/arm-cookbook-template  # Online location of your book
+  url: https://github.com/EVS-ATMOS/vita  # Online location of your book
   path_to_book: notebooks  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 launch_buttons:
-  jupyterhub_url: https://jupyterhub.arm.gov
-  notebook_interface: jupyterlab
+  jupyterhub_url:
+  notebook_interface:
