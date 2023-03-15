@@ -1,72 +1,50 @@
-# (Replace_with_your_title) Cookbook
+# VITA (Vehicle-based Intelligent Technology for Atmosphere research) Project Cookbooks
 
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ARM-Development/arm-cookbook-template/main?labpath=notebooks)
-
-This ARM Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., *working with radar data in Python*)
+This EVS-ATMOS Cookbook covers methodology and analysis for LDRD-SEED 2023 proposal investigating vechicle-based LiDAR systems for Atmospheric Research
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This project will focus on enhancing the current testbed for Advanced Driver Assistance Systems (ADAS) features by incorporating real-time weather data into the pipeline on Argonne’s On-Road Connected and Automated Vehicle (CAV) Testbed and leverage this data for training on-vehicle AI/ML models for weather prediction. 
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. *Acknowledge primary content authors here*
+[Joe O'Brien](@jrobrien91), [Nick Goberville](@nGoberville), [Matt Tuftedal](@mtuftedal)
 
 ### Contributors
 
-<a href="https://github.com/ARM-Development/arm-cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ARM-Development/arm-cookbook-template" />
+<a href="https://github.com/EVS-ATMOS/vita/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EVS-ATMOS/vita" />
 </a>
 
 ## Structure
-(State one or more sections that will comprise the notebook. E.g., *This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."* Then, describe each section below.)
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Section 1 (Exploration of Meteorological Instrumentation Workflow)
+The foundational content includes analysis of meteorological in-situ observations
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-(Add content for this section, e.g., "Example workflows include ... ")
+### Section 2 (Example Vechicle-Based System Workflow )
+Example workflows for exploring vechicle-based system observations
 
-## Running the Notebooks
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
-
-### Running on Binder
-
-The simplest way to interact with a Jupyter Notebook is through
-[Binder](https://mybinder.org/), which enables the execution of a
-[Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Cookbooks chapter via Binder. Simply navigate your mouse to
-the top right corner of the book chapter you are viewing and click
-on the rocket ship icon, (see figure below), and be sure to select
-“launch Binder”. After a moment you should be presented with a
-notebook that you can interact with. I.e. you’ll be able to execute
-and even change the example programs. You’ll see that the code cells
-have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
+### Section 3 (Analysis)
+Combined workflow and analysis
 
 ### Running on Your Own Machine
-If you are interested in running this material locally on your computer, you will need to follow this workflow:
+If you are interested in running this material locally on your computer, you will need to follow this workflow: 
 
-(Replace "arm-cookbook-example" with the title of your cookbooks)   
-
-1. Clone the `https://github.com/ARM-Development/arm-cookbook-example` repository:
+1. Clone the `https://github.com/EVS-ATMOS/vita` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythiaCookbooks/cookbook-example.git
+    git clone https://github.com/EVS-ATMOS/vita.git
     ```  
-1. Move into the `arm-cookbook-example` directory
+2. Move into the `vita` directory
     ```bash
-    cd arm-cookbook-example
+    cd vita
     ```  
-1. Create and activate your conda environment from the `environment.yml` file
+3. Create and activate your conda environment from the `environment.yml` file
     ```bash
     conda env create -f environment.yml
-    conda activate arm-cookbook-example
+    conda activate vita-dev
     ```  
-1.  Move into the `notebooks` directory and start up Jupyterlab
+4.  Move into the `notebooks` directory and start up Jupyterlab
     ```bash
     cd notebooks/
     jupyter lab
