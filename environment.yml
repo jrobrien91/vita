@@ -16,6 +16,7 @@ dependencies:
   - xarray
   - pandas
   - fiona
+  - pyvista
   - pip
   - pip:
     - -r doc-requirements.txt
